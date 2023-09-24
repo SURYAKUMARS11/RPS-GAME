@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock,paper,scissors Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    
+
+    <div id="startPage">
+        
+        <p class="heading">Welcome to the Rock,paper,scissor Game.</p>
+        <p class="heading2">Lets click <span style="color: black; font-size: 18px;">"START  " </span>to  play</p>
+        <button id="startButton" onclick="StartGameFunc()">START</button>
+    </div>
+    
+    
+
+    <div id="container" style="display: none;">
+
+    <div class="topContent">
+        <p class="computerscore">computer: 
+            <span id="computer_score">0</span>
+        </p>
+        <p class="playerscore"  >You :
+            <span id="user_score">0</span>
+        </p>
+    </div>
+
+    <div class="btn">
+
+    <div>
+        <button id="btn" class="btn1" onclick="winner('rock')">
+            <i class="fa-solid fa-hand-back-fist"></i>
+            <p class="inside">Rock</p>
+        </button>
+    
+    </div>
+
+    <div>
+       <button id="btn" class="btn2" onclick="winner('paper')"> 
+        <i class="fa-solid fa-hand"></i>
+        <p class="inside">Paper</p>
+       </button>
+    </div>
+
+    <div>
+        <button id="btn" class="btn3" onclick="winner('scissor')">
+            <i class="fa-solid fa-hand-scissors"></i>
+            <p class="inside">Scissor</p>
+        </button>
+    </div>   
+
+  </div>
+   <div id="movesleft">
+   <p>MovesLeft: <span id="remainingMoves">12</span></p>
+   </div>
+    
+    <div class="choices">
+    <p id="playerchoice" class="choiceOne"></p>
+
+    <p id="computerchoice" class="choiceOne">' ' CHOOSE YOUR MOVE NOW ' '</p>
+    </div>
+
+ 
+    <p id="result" class="result" ></p>
+
+    </div> 
+ 
+    <script src="script.js"></script>
+    
+</body>
+</html>
