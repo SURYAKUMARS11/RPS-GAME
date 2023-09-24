@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+body{
+    background-color: rgb(240, 190, 65);
+    font-family: 'Poppins', sans-serif;
+    background-image: url("aesthetic-abstract-striped-gradient-yellow-blank-frame-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+   }
+
+#container , #startPage{
+    width: 70vh;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:orange;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    outline: auto;
+}
+
+#startPage{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    outline: auto;
+
+
+}
+.btn{
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn button{
+    font-size: 40px;
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    color: rgb(240, 190, 65);
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.inside{
+    font-size: 13px;
+    color: maroon;
+    font-weight: bold;
+}
+.heading{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    
+}
+.heading2{
+    position: relative;
+    top: 150px;
+    font-size: 15px;
+    color: darkred;
+}
+
+#movesleft{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-weight: bolder;
+}
+
+#startButton{
+
+    position: relative;
+    top: 210px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color:crimson;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+#startButton:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.1)
+}
+
+.topContent{
+    padding: 10px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}
+
+.choices{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    padding: 1px;
+    color: green;
+    font-weight: bolder;
+}
+
+.result{
+    position: relative;
+    top: 180px;
+    font-weight: bolder;
+
+}    
+ 
+
+    
+   
+    
+    
+
